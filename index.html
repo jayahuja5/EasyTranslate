@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Translate</title>
+    </head>
+    <body>
+        <select id="et_lang">
+            <option value="en">English</option>
+            <option value="fr">French</option>
+        </select>
+        
+        
+        <div style="background:#00808090;color:white;padding:10px;border-left:5px solid teal;margin-bottom:5px;margin-top:5px;" et-text="hi"></div>
+        <a href="hi" et-text="hi"></a>
+        <a href="hi" et-text="hello"></a><br>
+        <span et-text="hello"></span><br>
+        <button et-text="button"></button><br>
+        <input type="text" et-placeholder="placeholder">
+        <input type="text" et-placeholder="input">
+        <input type="submit" et-submit="submit">
+        <input list="browsers" name="browser" id="browser" autocomplete="off"><br>
+        <datalist id="browsers">
+            <option et-value="hi">
+            <option et-value="hello">
+        </datalist>
+        <img src="rhino.png" et-title="rhino">
+        
+        
+        <script src="jquery-2.0.3.min.js"></script>
+        <script src="language.js"></script>
+        <script src="EasyTranslate.js"></script>
+        <script>
+            $(document).ready(function(){
+                $.fn.EasyTranslate({
+                    language: "en"
+                });
+            });
+        </script>
+    </body>
+</html>
