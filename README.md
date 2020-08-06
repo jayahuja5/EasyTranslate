@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/jayahuja5/EasyTranslate/master/img/EasyTranslate.svg" alt="EasyTranslate" width="200">
+  <img src="https://raw.githubusercontent.com/jayahuja5/EasyTranslate/d7b5f65459ba4893b302cbc7ab2b591d3518396c/img/EasyTranslate.svg" alt="EasyTranslate" width="200">
   <br>
   EasyTranslate
   <br>
