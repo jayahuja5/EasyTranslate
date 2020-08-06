@@ -1,3 +1,10 @@
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/jayahuja5/EasyTranslate/master/img/EasyTranslate.svg" alt="EasyTranslate" width="200">
+  <br>
+  EasyTranslate
+  <br>
+</h1>
 The EasyTranslate Plugin provides to translate your text into predifined Language it will works on predefined tag which will Translate for your Dynamic or Static websites.<br>
 ## Getting Started<br>
 <b>Step 1:</b><br>
