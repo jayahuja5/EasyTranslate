@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>EasyTranslate By Jay Ahuja</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,width=device-width, height=device-height"/>
+    </head>
+    <body>
+        <header>
+            <div class="a"><div class="a1">&larr;</div></div>
+            <div class="a"><img src="img/EasyTranslate.svg" class="a2"></div>
+            <div class="a">
+                <select id="et_lang" class="b">
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                    <option value="tr">Turkish</option>
+                </select>
+            </div>
+        </header>
+        <div class="c">
+            <img src="img/rhino.png" class="c1" et-title="rhino">
+            <div class="c2" et-text="rhino"></div>
+        </div>
+        <div class="d">
+            <div class="d1">
+                <div class="d1_1">
+                    <div class="d1_2"></div>
+                    <div class="d1_3">Jay Ahuja</div>
+                </div>
+                <div class="e" et-text="p1"></div>
+                <div class="f">
+                    <div class="f1 fl" et-text='like'></div>
+                    <div class="f1 fc" et-text="comment"></div>
+                    <div class="f1 fs" et-text="share"></div>
+                </div>
+            </div>
+            <div class="d1">
+                <div class="d1_1">
+                    <div class="d1_2"></div>
+                    <div class="d1_3">Jay Ahuja</div>
+                </div>
+                <div class="e" et-text="p2"></div>
+                <div class="f">
+                    <div class="f1 fl" et-text='like'></div>
+                    <div class="f1 fc" et-text="comment"></div>
+                    <div class="f1 fs" et-text="share"></div>
+                </div>
+            </div>
+        </div>
+        <div class="g">
+            <div class="h" et-text="contact_us"></div>
+            <div class="h1">
+                <input type="text" class="i" et-placeholder="first">
+                <input type="text" class="i" et-placeholder="last">
+            </div>
+            <input type="text" class="i" et-placeholder="ep">
+            <input type="text" class="i" et-placeholder="msg">
+            <input type="submit" class="j" et-value="submit">
+        </div>
+        <footer>
+            <b><center et-text="df"></center></b><br>
+            <center>
+            <span class="k" et-text="term"></span>
+            <span class="k" et-text="privacy"></span>
+            <span class="k" et-text="security"></span>
+            <span class="k" et-text="status"></span>
+            <span class="k" et-text="help"></span>
+            <span class="k" et-text="contact"></span>
+            <span class="k" et-text="api"></span>
+            <span class="k" et-text="training"></span>
+            <span class="k" et-text="blog"></span>
+            <span class="k" et-text="about"></span>
+            </center>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="language.js"></script>
+        <script src="EasyTranslate.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $.fn.EasyTranslate({
+                    language: "en"
+                });
+            });
+            $(window).scroll(function(){
+                var scroll = $(window).scrollTop();
+                if (scroll >= 100) $('header').css({'box-shadow':'0 10px 10px -10px #00000050'});
+                else $('header').css({'box-shadow':'0 0 0 0 #000000'});
+            });
+        </script>
+    </body>
+</html>
