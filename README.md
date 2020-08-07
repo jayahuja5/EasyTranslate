@@ -48,11 +48,11 @@ function getLangResources(){
 ```
 <b>Step 2:</b><br>
 ```js
-var en = new Array();         // Defining English as en inside array
+var en = new Array();         // Defining English 'en' as object inside array
   en['hi'] = "Hi";            // 'hi' is caption and "Hi" is text, caption is same for all languages
   en['hello'] = "Hello";      // 'hello' is caption and "Hello" is text, caption is same for all languages
   
-var fr = new Array();         // Defining French as fr inside array
+var fr = new Array();         // Defining French 'fr as object inside array
   fr['hi'] = "Salut";         // 'hi' is caption and "Salut" is text, caption is same for all languages
   fr['hello'] = "Bonjour";    // 'hello' is caption and "Bonjour" is text, caption is same for all languages
   
@@ -88,6 +88,7 @@ var resources = new Array();
 ```
 
 ## Attributes
+<b>`id='et-lang'`</b>&nbsp;&nbsp;-&nbsp;&nbsp;For getting selected value from select tag<br>
 <b>`et-text`</b>&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside tags.<br>
 <b>`et-placeholder`</b>&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside placeholder attr in input box or textarea.<br>
 <b>`et-submit`</b>&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside value attr in submit button.<br>
@@ -119,6 +120,13 @@ var resources = new Array();
 * For Putting 'title' for <b>`img`&nbsp;&nbsp;or&nbsp;&nbsp;`other tag`</b>
 ```html
 <img src="rhino.png" et-title="rhino">              // 'et-title' will insert translated text inside title attr
+```
+* For Getting Language <b>`select`&nbsp;&nbsp;or&nbsp;&nbsp;` is used</b>
+```html
+<select id="et_lang">                       // 'et-lang' will get selected value.
+  <option value="en">English</option>       // value will be array object which is defined in 'Language.js'
+  <option value="fr">French</option>        // value will be array object which is defined in 'Language.js'
+</select>
 ```
 ## Demo
   * **Demo&nbsp;&nbsp;-**&nbsp;&nbsp;Comming Soon...
