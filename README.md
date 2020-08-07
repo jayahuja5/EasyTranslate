@@ -98,7 +98,7 @@ var resources = new Array();
 ## Implementing in HTML File
 ><b>Note:</b> Blank your 'tag' because it loads text from Language.js
 
-* For putting 'text' inside &nbsp;<b>`div`&nbsp;&nbsp;`span`&nbsp;&nbsp;`label`&nbsp;&nbsp;`button`&nbsp;&nbsp;`a href`&nbsp;&nbsp;&&nbsp;&nbsp;`so on`</b>
+* For putting 'text' inside &nbsp;<b>`div`&nbsp;&nbsp;`span`&nbsp;&nbsp;`label`&nbsp;&nbsp;`button`&nbsp;&nbsp;`a href`</b>&nbsp;&nbsp;&&nbsp;&nbsp;<b>`so on`</b>
 ```html
 <div class="your_class" et-text="hi"></div>   // 'hi' is caption which is same for all languages
 <button et-text="button"></button>            // Button
@@ -121,7 +121,7 @@ var resources = new Array();
 <img src="rhino.png" et-title="rhino">              // 'et-title' will insert translated text inside title attr
 ```
 ## Demo
-  * Demo&nbsp;&nbsp;-&nbsp;&nbsp;Comming Soon...
+  * **Demo&nbsp;&nbsp;-**&nbsp;&nbsp;Comming Soon...
 ## Report Issues, Errors or Modification
 Feel free to raise issues, error or modification related to the EasyTranslate plugin.<br>
 <br><br><br>
