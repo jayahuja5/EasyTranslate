@@ -106,7 +106,7 @@ var resources = new Array();
 <span et-text="hello"></span>                 // Span
 // Also other tag where you can want to insert text inside that 'tag'
 ```
-* For Putting 'text' inside <b>`insert`&nbsp;&nbsp;for&nbsp;&nbsp;`placeholder`&nbsp;&nbsp;or&nbsp;&nbsp;`value`
+* For Putting 'text' inside <b>`insert`</b>&nbsp;&nbsp;for&nbsp;&nbsp;<b>`placeholder`</b>&nbsp;&nbsp;or&nbsp;&nbsp;<b>`value`</b>
 ```html
 <input type="text" et-placeholder="placeholder">    // 'et-placeholder' will insert translated text inside placeholder attr for input box
 <input type="submit" et-submit="submit">            // 'et-submit' will insert translated text inside value attr for submit button
