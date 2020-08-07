@@ -129,7 +129,7 @@ var resources = new Array();
 </select>
 ```
 ## Demo
-  * **Demo&nbsp;&nbsp;-**&nbsp;&nbsp;Comming Soon...
+  * **Demo&nbsp;&nbsp;-**&nbsp;&nbsp;[EasyTranslate Demo](https://jayahuja5.github.io/EasyTranslate/)
 ## Report Issues, Errors or Modification
 Feel free to raise issues, error or modification related to the EasyTranslate plugin.<br>
 <br><br><br>
