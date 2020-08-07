@@ -5,7 +5,7 @@
   EasyTranslate
 </h1>
 <p>
-  The EasyTranslate Plugin provides to translate your text into predifined Language it will works on predefined tag which will translate text for your Dynamic or Static websites. It also have an feature which will save your selected language in local storage to retrive selected language any time when you open.
+  The EasyTranslate Plugin provides to translate your text into predifined Language it will works on predefined tag which will translate text for your Static contents. It also have an feature which will save your selected language in local storage to retrive selected language any time when you open.
 </p>
 <br>
 
