@@ -5,7 +5,7 @@
   EasyTranslate
 </h1>
 <p>
-  The EasyTranslate Plugin provides to translate your text into predifined Language it will works on predefined tag which will Translate for your Dynamic or Static websites.
+  The EasyTranslate Plugin provides to translate your text into predifined Language it will works on predefined tag which will translate text for your Dynamic or Static websites. It also have an feature which will save your selected language in local storage to retrive selected language any time when you open.
 </p>
 <br>
 
@@ -88,11 +88,11 @@ var resources = new Array();
 ```
 
 ## Attributes
-<b>`et-text`&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside tags.<br>
-<b>`et-placeholder`&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside placeholder attr in input box or textarea.<br>
-<b>`et-submit`&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside value attr in submit button.<br>
-<b>`et-value`&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside value attr in option inside select tag.<br>
-<b>`et-title`&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside title attr for showing title.<br>
+<b>`et-text`</b>&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside tags.<br>
+<b>`et-placeholder`</b>&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside placeholder attr in input box or textarea.<br>
+<b>`et-submit`</b>&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside value attr in submit button.<br>
+<b>`et-value`</b>&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside value attr in option inside select tag.<br>
+<b>`et-title`</b>&nbsp;&nbsp;-&nbsp;&nbsp;For inserting translated text inside title attr for showing title.<br>
 <i>Something missing feel free to raise issue!</i>
   
 ## Implementing in HTML File
