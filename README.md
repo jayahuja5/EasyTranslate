@@ -121,7 +121,7 @@ var resources = new Array();
 ```html
 <img src="rhino.png" et-title="rhino">              // 'et-title' will insert translated text inside title attr
 ```
-* For Getting Language <b>`select`&nbsp;&nbsp;or&nbsp;&nbsp;` is used</b>
+* For Getting Language <b>`select`</b> is used
 ```html
 <select id="et_lang">                       // 'et-lang' will get selected value.
   <option value="en">English</option>       // value will be array object which is defined in 'Language.js'
